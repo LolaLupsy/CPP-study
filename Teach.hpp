@@ -15,5 +15,5 @@ public:
 	string name;
 	map<string, int> res;
 	void checkWorksandPrint();
-	//void PrintResults();
+	
 };
