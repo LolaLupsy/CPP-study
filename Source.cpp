@@ -21,7 +21,7 @@ public:
     {
         if (a == 0) return false;
 
-        // вычислить дискриминант
+        // discriminant
         double d = b * b - 4 * a * c;
 
         if (d < 0)
@@ -36,7 +36,7 @@ public:
         return true;
     }
 
-    void PrintSolve()
+    void PrintSolution()
     {
         double x1, x2;
 
@@ -79,7 +79,7 @@ int main()
     int a, b, c;
     cout << "Enter coefficients a,b,c:"<<endl;
     cin >> a >> b >> c;
-    SquareEquition e(a,b,c); // вызов конструктора
-    e.PrintSolve(); // вызов метода структуры
+    SquareEquition e(a,b,c);
+    e.PrintSolution();
     return 0;
 }
